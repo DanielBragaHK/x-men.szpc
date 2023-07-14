@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Projeto X-Men semana do zero ao programador contratado</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.svg" alt="Logo X-Men">
+    </header>
+    <main class="selecao-de-personagens">
+
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um Personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="Líder dos X-Men,
+                 ele dispara devastadoras rajadas ópticas, lutando para controlar esse poder destrutivo.">
+                    <img src="./src/imagens/card-ciclope.jpg" alt="personagem Ciclope">
+                </li>
+                <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="Telepata e telecinética de nível Omega,
+                 ela é um dos seres mais poderosos do universo mutante.">
+                    <img src="./src/imagens/card-jean-grey.jpg" alt="personagem Jean Grey">
+                </li>
+                <li class="personagem" id="lince-negra" data-name="Lince Negra"
+                    data-description="Ágil e furtiva, ela é uma especialista em infiltração e combate corpo a corpo, capaz de atravessar objetos sólidos.">
+                    <img src="./src/imagens/card-lince-negra.jpg" alt="personagem Lince Negra">
+                </li>
+                <li class="personagem" id="magneto" data-name="Magneto"
+                    data-description="Mestre do magnetismo, ele manipula campos magnéticos e luta por um futuro onde os mutantes governem.">
+                    <img src="./src/imagens/card-magneto.jpg" alt="personagem Magneto">
+                </li>
+                <li class="personagem" id="noturno" data-name="Noturno"
+                    data-description="Com habilidades de teletransporte e agilidade sobrenatural, ele é um acrobata formidável e aliado leal dos X-Men.">
+                    <img src="./src/imagens/card-noturno.jpg" alt="personagem Noturno">
+                </li>
+                <li class="personagem" id="tempestade" data-name="Tempestade"
+                    data-description="Controla o clima com maestria, desencadeando furiosas tempestades e ventos cortantes como uma deusa elemental.">
+                    <img src="./src/imagens/card-tempestade.jpg" alt="personagem Tempestade">
+                </li>
+                <li class="personagem" id="vampira" data-name="Vampira"
+                    data-description="Absorve habilidades e vida de outros com um toque, vivendo com o fardo da solidão e do controle constante.">
+                    <img src="./src/imagens/card-vampira.jpg" alt="personagem Vampira">
+                </li>
+                <li class="personagem" id="wolverine" data-name="Wolverine"
+                    data-description="Conhecido por seu fator de cura e garras de adamantium, ele é um guerreiro feroz e imortal com um passado misterioso.">
+                    <img src="./src/imagens/card-wolverine.jpg" alt="personagem Wolverine">
+                </li>
+
+
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Líder dos X-Men,
+                    ele dispara devastadoras rajadas ópticas, lutando para controlar esse poder destrutivo.</p>
+            </div>
+        </section>
+
+    </main>
+    <script src="./src/JS/index.js"></script>
+</body>
+
+</html>
